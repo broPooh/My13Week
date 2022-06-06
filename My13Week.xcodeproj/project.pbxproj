@@ -15,7 +15,52 @@
 		1BD30386284CA0E4004851A7 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 1BD30385284CA0E4004851A7 /* SnapKit */; };
 		1BD30388284CA4ED004851A7 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BD30387284CA4ED004851A7 /* APIService.swift */; };
 		1BD3038A284CAAE9004851A7 /* Cast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BD30389284CAAE9004851A7 /* Cast.swift */; };
+		1BD3038C284CB21A004851A7 /* UITableViewCell+Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BD3038B284CB21A004851A7 /* UITableViewCell+Extention.swift */; };
+		1BD3038E284CB75B004851A7 /* DummyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BD3038D284CB75B004851A7 /* DummyViewController.swift */; };
+		1BD30390284CB7F4004851A7 /* DummyData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BD3038F284CB7F4004851A7 /* DummyData.swift */; };
+		1BD30392284CB8B4004851A7 /* TableViewCellRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BD30391284CB8B4004851A7 /* TableViewCellRepresentable.swift */; };
+		1BD30394284CE6D9004851A7 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BD30393284CE6D9004851A7 /* BaseViewController.swift */; };
+		1BD30397284CE7D3004851A7 /* NASAViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BD30396284CE7D3004851A7 /* NASAViewController.swift */; };
+		1BD3039D284CE8A7004851A7 /* SignViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BD3039C284CE8A7004851A7 /* SignViewController.swift */; };
+		1BD3039F284CE8DF004851A7 /* SignView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BD3039E284CE8DF004851A7 /* SignView.swift */; };
+		1BD303A2284D9815004851A7 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 1BD303A1284D9815004851A7 /* Alamofire */; };
+		1BD303A5284D9822004851A7 /* Then in Frameworks */ = {isa = PBXBuildFile; productRef = 1BD303A4284D9822004851A7 /* Then */; };
+		1BD303A7284D9B75004851A7 /* SignViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BD303A6284D9B75004851A7 /* SignViewModel.swift */; };
+		1BD30420284DAD6D004851A7 /* FrameworkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BD3041F284DAD6D004851A7 /* FrameworkViewController.swift */; };
+		1BD30434284DC4AF004851A7 /* MyFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BD30431284DC491004851A7 /* MyFramework.framework */; };
+		1BD30435284DC4AF004851A7 /* MyFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1BD30431284DC491004851A7 /* MyFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1BD30430284DC491004851A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1BD3042B284DC490004851A7 /* MyFramework.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1BD303EC284DAD11004851A7;
+			remoteInfo = MyFramework;
+		};
+		1BD30432284DC491004851A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1BD3042B284DC490004851A7 /* MyFramework.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1BD303F6284DAD11004851A7;
+			remoteInfo = MyFrameworkTests;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1BD30436284DC4AF004851A7 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				1BD30435284DC4AF004851A7 /* MyFramework.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		1BD30361284C9EDB004851A7 /* My13Week.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = My13Week.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -27,6 +72,18 @@
 		1BD30372284C9EDC004851A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1BD30387284CA4ED004851A7 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
 		1BD30389284CAAE9004851A7 /* Cast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cast.swift; sourceTree = "<group>"; };
+		1BD3038B284CB21A004851A7 /* UITableViewCell+Extention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableViewCell+Extention.swift"; sourceTree = "<group>"; };
+		1BD3038D284CB75B004851A7 /* DummyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DummyViewController.swift; sourceTree = "<group>"; };
+		1BD3038F284CB7F4004851A7 /* DummyData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DummyData.swift; sourceTree = "<group>"; };
+		1BD30391284CB8B4004851A7 /* TableViewCellRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCellRepresentable.swift; sourceTree = "<group>"; };
+		1BD30393284CE6D9004851A7 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		1BD30396284CE7D3004851A7 /* NASAViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NASAViewController.swift; sourceTree = "<group>"; };
+		1BD3039C284CE8A7004851A7 /* SignViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignViewController.swift; sourceTree = "<group>"; };
+		1BD3039E284CE8DF004851A7 /* SignView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignView.swift; sourceTree = "<group>"; };
+		1BD303A6284D9B75004851A7 /* SignViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignViewModel.swift; sourceTree = "<group>"; };
+		1BD3041F284DAD6D004851A7 /* FrameworkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkViewController.swift; sourceTree = "<group>"; };
+		1BD30421284DC3D2004851A7 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		1BD3042B284DC490004851A7 /* MyFramework.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = MyFramework.xcodeproj; path = ../MyFramework/MyFramework.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -34,7 +91,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1BD303A2284D9815004851A7 /* Alamofire in Frameworks */,
+				1BD30434284DC4AF004851A7 /* MyFramework.framework in Frameworks */,
 				1BD30386284CA0E4004851A7 /* SnapKit in Frameworks */,
+				1BD303A5284D9822004851A7 /* Then in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,8 +104,10 @@
 		1BD30358284C9EDB004851A7 = {
 			isa = PBXGroup;
 			children = (
+				1BD3042B284DC490004851A7 /* MyFramework.xcodeproj */,
 				1BD30363284C9EDB004851A7 /* My13Week */,
 				1BD30362284C9EDB004851A7 /* Products */,
+				1BD3041B284DAD40004851A7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,16 +122,59 @@
 		1BD30363284C9EDB004851A7 /* My13Week */ = {
 			isa = PBXGroup;
 			children = (
+				1BD3039B284CE898004851A7 /* Sign */,
+				1BD30395284CE7C2004851A7 /* NASA */,
 				1BD30364284C9EDB004851A7 /* AppDelegate.swift */,
 				1BD30366284C9EDB004851A7 /* SceneDelegate.swift */,
 				1BD30368284C9EDB004851A7 /* ViewController.swift */,
+				1BD3038D284CB75B004851A7 /* DummyViewController.swift */,
+				1BD30393284CE6D9004851A7 /* BaseViewController.swift */,
+				1BD3038F284CB7F4004851A7 /* DummyData.swift */,
+				1BD30391284CB8B4004851A7 /* TableViewCellRepresentable.swift */,
+				1BD3038B284CB21A004851A7 /* UITableViewCell+Extention.swift */,
 				1BD3036D284C9EDC004851A7 /* Assets.xcassets */,
 				1BD3036F284C9EDC004851A7 /* LaunchScreen.storyboard */,
 				1BD30372284C9EDC004851A7 /* Info.plist */,
 				1BD30387284CA4ED004851A7 /* APIService.swift */,
 				1BD30389284CAAE9004851A7 /* Cast.swift */,
+				1BD3041F284DAD6D004851A7 /* FrameworkViewController.swift */,
 			);
 			path = My13Week;
+			sourceTree = "<group>";
+		};
+		1BD30395284CE7C2004851A7 /* NASA */ = {
+			isa = PBXGroup;
+			children = (
+				1BD30396284CE7D3004851A7 /* NASAViewController.swift */,
+			);
+			path = NASA;
+			sourceTree = "<group>";
+		};
+		1BD3039B284CE898004851A7 /* Sign */ = {
+			isa = PBXGroup;
+			children = (
+				1BD3039C284CE8A7004851A7 /* SignViewController.swift */,
+				1BD3039E284CE8DF004851A7 /* SignView.swift */,
+				1BD303A6284D9B75004851A7 /* SignViewModel.swift */,
+			);
+			path = Sign;
+			sourceTree = "<group>";
+		};
+		1BD3041B284DAD40004851A7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1BD30421284DC3D2004851A7 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1BD3042C284DC490004851A7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1BD30431284DC491004851A7 /* MyFramework.framework */,
+				1BD30433284DC491004851A7 /* MyFrameworkTests.xctest */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -82,6 +187,7 @@
 				1BD3035D284C9EDB004851A7 /* Sources */,
 				1BD3035E284C9EDB004851A7 /* Frameworks */,
 				1BD3035F284C9EDB004851A7 /* Resources */,
+				1BD30436284DC4AF004851A7 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -90,6 +196,8 @@
 			name = My13Week;
 			packageProductDependencies = (
 				1BD30385284CA0E4004851A7 /* SnapKit */,
+				1BD303A1284D9815004851A7 /* Alamofire */,
+				1BD303A4284D9822004851A7 /* Then */,
 			);
 			productName = My13Week;
 			productReference = 1BD30361284C9EDB004851A7 /* My13Week.app */;
@@ -121,15 +229,40 @@
 			mainGroup = 1BD30358284C9EDB004851A7;
 			packageReferences = (
 				1BD30384284CA0E4004851A7 /* XCRemoteSwiftPackageReference "SnapKit" */,
+				1BD303A0284D9815004851A7 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				1BD303A3284D9822004851A7 /* XCRemoteSwiftPackageReference "Then" */,
 			);
 			productRefGroup = 1BD30362284C9EDB004851A7 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 1BD3042C284DC490004851A7 /* Products */;
+					ProjectRef = 1BD3042B284DC490004851A7 /* MyFramework.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				1BD30360284C9EDB004851A7 /* My13Week */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		1BD30431284DC491004851A7 /* MyFramework.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = MyFramework.framework;
+			remoteRef = 1BD30430284DC491004851A7 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		1BD30433284DC491004851A7 /* MyFrameworkTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = MyFrameworkTests.xctest;
+			remoteRef = 1BD30432284DC491004851A7 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		1BD3035F284C9EDB004851A7 /* Resources */ = {
@@ -148,10 +281,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1BD30392284CB8B4004851A7 /* TableViewCellRepresentable.swift in Sources */,
+				1BD30420284DAD6D004851A7 /* FrameworkViewController.swift in Sources */,
+				1BD303A7284D9B75004851A7 /* SignViewModel.swift in Sources */,
+				1BD30390284CB7F4004851A7 /* DummyData.swift in Sources */,
+				1BD3038E284CB75B004851A7 /* DummyViewController.swift in Sources */,
 				1BD30369284C9EDB004851A7 /* ViewController.swift in Sources */,
 				1BD30365284C9EDB004851A7 /* AppDelegate.swift in Sources */,
+				1BD30394284CE6D9004851A7 /* BaseViewController.swift in Sources */,
 				1BD3038A284CAAE9004851A7 /* Cast.swift in Sources */,
+				1BD3039D284CE8A7004851A7 /* SignViewController.swift in Sources */,
 				1BD30388284CA4ED004851A7 /* APIService.swift in Sources */,
+				1BD3039F284CE8DF004851A7 /* SignView.swift in Sources */,
+				1BD30397284CE7D3004851A7 /* NASAViewController.swift in Sources */,
+				1BD3038C284CB21A004851A7 /* UITableViewCell+Extention.swift in Sources */,
 				1BD30367284C9EDB004851A7 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -368,6 +511,22 @@
 				kind = branch;
 			};
 		};
+		1BD303A0284D9815004851A7 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		1BD303A3284D9822004851A7 /* XCRemoteSwiftPackageReference "Then" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/devxoul/Then.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -375,6 +534,16 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 1BD30384284CA0E4004851A7 /* XCRemoteSwiftPackageReference "SnapKit" */;
 			productName = SnapKit;
+		};
+		1BD303A1284D9815004851A7 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1BD303A0284D9815004851A7 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		1BD303A4284D9822004851A7 /* Then */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1BD303A3284D9822004851A7 /* XCRemoteSwiftPackageReference "Then" */;
+			productName = Then;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

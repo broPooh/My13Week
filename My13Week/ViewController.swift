@@ -27,7 +27,7 @@ class ViewController: UIViewController {
         
         tableView.delegate = self
         tableView.dataSource = self
-        tableView.register(UITableViewCell.self, forCellReuseIdentifier: "cell")
+        tableView.register(UITableViewCell.self, forCellReuseIdentifier: UITableViewCell.reuseIdentifier)
         
         //apiService.requestCast()
         apiService.requestCastCloser { cast in
@@ -55,7 +55,7 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
         
-        let cell = UITableViewCell(style: .value1, reuseIdentifier: "cell")
+        let cell = UITableViewCell(style: .value1, reuseIdentifier: UITableViewCell.reuseIdentifier)
         //let cell = tableView.dequeueReusableCell(withIdentifier: "cell")
         cell.textLabel?.text = castData?.peopleListResult.peopleList[indexPath.row].peopleNm
         cell.detailTextLabel?.text = "ssss"
